@@ -1,3 +1,7 @@
+/*_____________________________________________________________________________________________________________________________________________*/
+/*    -This program is to config Esp32 connected Wifi through Web. This is to help change the Wifi for ESP32 without reprograming              */
+/*    -Just use it as reference as it takes quite a great amount of memory____                                                                 */
+/*_____________________________________________________________________________________________________________________________________________*/
 #include <WiFi.h>
 #include <WebServer.h>
 #include <Preferences.h>
