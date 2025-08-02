@@ -13,7 +13,7 @@ lib_deps =
 Add to your project's `platformio.ini` file:
 ```ini
 lib_deps = 
-    https://github.com/your-username/DHT_ESP32.git
+    https://github.com/Cloudydesuu/IoT_SomeRandomProject/DHT_ESP32.git
 ```
 
 ### ESP-IDF Component
