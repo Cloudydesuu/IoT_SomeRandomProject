@@ -1,0 +1,37 @@
+{
+  "name": "DHT_ESP32",
+  "version": "1.0.0",
+  "description": "DHT11/DHT22 temperature and humidity sensor library for ESP32 using ESP-IDF framework",
+  "keywords": ["dht11", "dht22", "temperature", "humidity", "sensor", "esp32", "esp-idf"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cloudydesuu/DHT_ESP32.git"
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Cloudydesuu/DHT_ESP32",
+  "export": {
+    "include": ["include/*", "src/*", "component.mk", "CMakeLists.txt"]
+  },
+  "dependencies": {},
+  "frameworks": ["espidf"],
+  "platforms": ["espressif32"],
+  "headers": ["dht.h"],
+  "build": {
+    "includeDir": "include",
+    "srcDir": "src"
+  },
+  "examples": [
+    {
+      "name": "Basic Usage",
+      "base": "examples",
+      "files": ["main.c", "platformio.ini"]
+    }
+  ]
+}
