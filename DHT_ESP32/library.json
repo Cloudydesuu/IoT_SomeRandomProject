@@ -1,8 +1,0 @@
-{
-  "name": "DHT_ESP32",
-  "version": "1.0.0",
-  "description": "DHT11 driver for ESP-IDF",
-  "keywords": ["dht11", "esp32", "sensor"],
-  "frameworks": ["espidf"],
-  "platforms": ["espressif32"]
-}
